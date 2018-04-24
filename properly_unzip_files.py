@@ -3,7 +3,6 @@ from zipfile import ZipFile
 from pathlib import Path
 
 
-
 def properly_unzip_files():
     """
     Given that `Branch_user_logs.zip` exists in the data directory, this will unzip Branch users into that directory
@@ -21,12 +20,14 @@ def properly_unzip_files():
     else:
         try:
             print("Unzipping files into the data directory")
-            zip_ref = ZipFile(path_to_zip_file, 'r')
+            zip_ref = ZipFile(path_to_zip_file, "r")
             zip_ref.extractall(directory_to_extract_to)
             zip_ref.close()
 
         except IOError as e:
-            print("Unable to open file either because it doesn't exist or you don't have read permission")
+            print(
+                "Unable to open file either because it doesn't exist or you don't have read permission"
+            )
 
 
 if __name__ == "__main__":
