@@ -15,7 +15,9 @@ The list of users with repaid/defaulted status is in the user_status.csv files w
 * `[user_id]/[device_id]/contact_list/*` - These contain the contact list on the device  
 * `[user_id]/[device_id]/sms_log/*`- These contain user’s actual SMS messages
 
-Use the raw data in the zip file and the repayment performance of the borrowers (whether they repaid or defaulted) to generate insights that will guide future decisions and underwriting criteria. 
+Use the raw data in the zip file and the repayment performance of the borrowers (whether they repaid or defaulted) 
+to generate insights that will guide future decisions and underwriting criteria. 
+
 Some examples of possible insights might be:  
 * Users with more than 50 contacts are less likely to default
 * The presence of certain types of SMSes are predictive of full repayment
@@ -31,3 +33,4 @@ Ping Sarah or add any questions you may have to the bottom of this document.
 We will respond ASAP so you aren’t blocked.
 
 Questions from Mitchell:
+As requested by Nick, I'll address questions in the [Google Doc](https://docs.google.com/document/d/1khP_9ah_ENRO_f2onbuj8_nlFw_BZWClxZGfJKrQ0Xo)
