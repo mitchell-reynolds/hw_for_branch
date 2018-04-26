@@ -1,5 +1,6 @@
 import os
 import pandas as pd
+from pprint import pprint
 
 
 def build_df():
@@ -69,6 +70,9 @@ def build_df():
     call_df = pd.concat(call_list, axis=0)
     contact_df = pd.concat(contact_list, axis=0)
     sms_df = pd.concat(sms_list, axis=0)
+
+    # Throwing an error?
+    # pprint(call_df.info(), contact_df.info(), sms_df.info())
 
     return call_df, contact_df, sms_df
 

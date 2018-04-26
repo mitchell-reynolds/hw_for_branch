@@ -15,8 +15,10 @@ If we needed to repeatably download new data, then we'd build a database instead
 
 # Run some code to get up and running
 
-`python properly_unzip_files.py`
-`python build_dataframes.py`
+```
+python properly_unzip_files.py  
+python build_dataframes.py
+```
 
 Note if the formatting is strange to you, I use a friend's autoformatter called Black. 
 Might take some getting used to for those first-time seeing it. 
