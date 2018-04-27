@@ -3,7 +3,7 @@
 `git clone https://github.com/mitchell-reynolds/hw-for-branch.git`
 
 # Set Up The Required Packages
-This is currently a work-in-progress since I'm working on the analysis.
+This is currently a work-in-progress since I'm working on the analysis.  
 `pip install -r mitchell-requirements.txt`
 
 # Download the Data
